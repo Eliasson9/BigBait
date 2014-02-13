@@ -11,31 +11,40 @@ $shire['main'] = <<<EOD
 		<legend>
 			Adressinformation.
 		</legend>
-		<label for='firstName'>Förnamn:</label>
-		<input id='firstName' class="text" type='text'> 
-		<br />
-		<label for='lastName'>Efternamn:</label>
-		<input id='lastName' class="text" type='text'>
-		<br />
-		<label for='adress'>Leveransadress:</label>
-		<input id='adress' class="text" type='text'>
-		<br />
-		<label for='postNr'>Postnr:</label>
-		<input id='postNr' class="text" type='text'>
-		<br />
-		<label for='city'>Ort:</label>
-		<input id='city' class="text" type='text'>
-		<br />
-		<label for='eMail'>E-postadress:</label>
-		<input id='eMail' class="text" type='email'>
-		<br />
-		<label for='phone'>Telefon:</label>
-		<input id='phone' class="text" type='text'>
-		<br />
-		<input id='checkBox' class='checkbox' type='checkbox' required>
-		<lable for='checkBox'>Ja, jag godkänner köpvillkoren</label> 
-		<br />
-		<input type='submit' class='submit' value='Bekräfta'>
+		<p>
+			<label for='firstName'>Förnamn:</label>
+			<input id='firstName' class="text" type='text'> 
+		</p>
+		<p>
+			<label for='lastName'>Efternamn:</label>
+			<input id='lastName' class="text" type='text'>
+		</p>
+		<p>
+			<label for='adress'>Leveransadress:</label>
+			<input id='adress' class="text" type='text'>
+		<p>
+			<label for='postNr'>Postnr:</label>
+			<input id='postNr' class="text" type='text'>
+		</p>
+		<p>
+			<label for='city'>Ort:</label>
+			<input id='city' class="text" type='text'>
+		</p>
+		<p>
+			<label for='eMail'>E-postadress:</label>
+			<input id='eMail' class="text" type='email'>
+		</p>
+		<p>
+			<label for='phone'>Telefon:</label>
+			<input id='phone' class="text" type='text'>
+		</p>
+		<p>
+			<input id='checkBox' class='checkbox' type='checkbox' required>
+			<lable for='checkBox'>Ja, jag godkänner köpvillkoren</label> 
+		</p>
+		<p>
+			<input type='submit' class='submit' value='Bekräfta'>
+		</p>
 	</fieldset>
 </form>
 EOD;
