@@ -3,6 +3,11 @@ body {
 	
 }
 
+.sitelogo {
+	width: 30vw;
+	height: 20vh;
+}
+
 #wrapper {
 	width: 80vw;
 	margin: auto;	

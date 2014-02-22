@@ -60,7 +60,8 @@ $shire['favicon']    = 'favicon.ico';
 *
 */
 $shire['header'] = <<<EOD
-<span class='siteslogan'>Denn sida är under utveckling</span>
+<img class='sitelogo' src='img/BigBait-Logo/BigBait-Logo/Liten version/BigBait-Logo-Liten.png' alt='BigBait Logo' />
+<h2>Denna sida är under utveckling</h2>
 EOD;
 
 /**
